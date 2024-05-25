@@ -1,0 +1,21 @@
+﻿@using NoteLite.Models
+@model List<Note>
+
+<h1>@ViewBag.category</h1>
+
+<div class="row">
+    @foreach (var note in Model)
+    {
+        <div class="col-sm-6 p-2">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">@note.NoteTitle</h5>
+                    <p class="card-text">
+                        @Html.Raw(@note.Description)
+                    </p>
+                    <a href="/user/noteDetailPage/@note.NoteId" class="btn btn-primary">Go to Details</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

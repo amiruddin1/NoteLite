@@ -1,0 +1,86 @@
+﻿@using NoteLite.Models
+@model List<Note>
+
+@if (ViewBag.LoginResponse != null)
+{
+    if (ViewBag.LoginResponse == "Admin login")
+    {
+        <script>
+            alert("Logged in Successfully.")
+        </script>
+        ViewBag.LoginResponse = null;
+    }
+}
+@if (ViewBag.Addition_response_Admin != null)
+{
+    if (ViewBag.Addition_response_Admin == "Done")
+    {
+        <script>
+            alert("Category Added!")
+        </script>
+        ViewBag.Addition_response_Admin = null;
+    }
+}
+@if (ViewBag.Deletion_response_Admin != null)
+{
+    if (ViewBag.Deletion_response_Admin == "Done")
+    {
+        <script>
+            alert("Category Removed!")
+        </script>
+        ViewBag.Deletion_response_Admin = null;
+    }
+}
+@if (ViewBag.Updation_response_Admin != null)
+{
+    if (ViewBag.Updation_response_Admin == "Done")
+    {
+        <script>
+            alert("Note Updated!")
+        </script>
+        ViewBag.Updation_response_Admin = null;
+    }
+}
+
+@{
+    List<Category> catagories = ViewBag.categorias;
+}
+
+<h1>Categories</h1>
+<div class="row">
+    <a class="h6" href="/Admin/AddCategory">Add New Category</a>
+    @foreach (var category in catagories)
+    {
+        <div class="col-sm-3 p-2">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">@category.CategoryName</h5>
+                    <a href="/Admin/ManageCategory/@category.CategoryId" class="btn btn-warning">Go to Category</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<h1>User Notes</h1>
+<div class="row">
+    @foreach (var note in Model)
+    {
+        <div class="col-sm-6 p-2">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">@note.NoteTitle</h5>
+                    <p class="card-text">
+                        @Html.Raw(note.Description)
+                    </p>
+                    <a href="/Admin/noteDetailPage/@note.NoteId" class="btn btn-primary">Go to Details</a>
+                    <a href="/Admin/RemoveNote/@note.NoteId" class="btn btn-outline-danger">Remove Note</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<div>
+    <p>Deletion of Any Product will Remove Tagged Notes Associations.</p>
+</div>

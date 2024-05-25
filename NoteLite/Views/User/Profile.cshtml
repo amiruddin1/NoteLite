@@ -1,0 +1,18 @@
+﻿@using NoteLite.Models
+@model User
+@{
+    ViewData["Title"] = "User Profile";
+}
+
+<h1>Profile Information</h1>
+<div class="row">
+    <div class="col-sm-6 p-2">
+        Full Name:<h4 class="d-inline"> @Model.FirstName @Model.LastName</h4><br />
+        Email: <h6 class="d-inline">@Model.Email</h6><br />
+        Phone Number:<h6 class="d-inline"> @Model.PhoneNumber</h6>
+    </div>
+</div>
+
+<div>
+    <a asp-action="index">Back to the List</a>
+</div>

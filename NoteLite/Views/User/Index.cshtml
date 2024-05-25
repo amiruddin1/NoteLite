@@ -1,0 +1,178 @@
+﻿@using NoteLite.Models
+@model List<Note>
+
+@{
+    var currentPage = ViewBag.PageNumber ?? 1;
+    var totalPages = ViewBag.TotalPages ?? 1;
+}
+@if (TempData["LoginResponse"] != null)
+{
+    if (TempData["LoginResponse"].ToString() == "User login")
+    {
+        <script>
+            alert("User Logged in Successfully.")
+        </script>
+        TempData["LoginResponse"] = null ;
+    }
+}
+
+@if (TempData["Addition_response"] != null)
+{
+    if (TempData["Addition_response"].ToString() == "Done")
+    {
+        <script>
+            alert("Note Added!")
+        </script>
+        TempData["Addition_response"] = null;
+    }
+}
+@if (TempData["Updation_response"] != null)
+{
+    if (TempData["Updation_response"].ToString() == "Done")
+    {
+        <script>
+            alert("Note Updated!")
+        </script>
+        TempData["Updation_response"] = null;
+    }
+}
+@if (TempData["Deletion_response"] != null)
+{
+    if (TempData["Deletion_response"].ToString() == "Done")
+    {
+        <script>
+            alert("Note Removed!")
+        </script>
+        TempData["Deletion_response"] = null;
+    }
+}
+
+
+@{
+    List<Category> catagories = ViewBag.categorias;
+    List<Note> taggedNotes = ViewBag.TaggedNotes;
+    List<User> users = ViewBag.users;
+    List<Tag> AllTagData = ViewBag.AllTagData;
+}
+
+<h1>Categories</h1>
+<div class="row">
+    @if (catagories.Count < 1)
+    {
+        <h5>No Catagories Added.</h5>
+    }
+    @foreach (var category in catagories)
+    {
+        <div class="col-sm-3 p-2">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">@category.CategoryName</h5>
+                    <a href="/User/CategoryWiseProduct/@category.CategoryId" class="btn btn-warning">Go to Category</a>
+                    <span style="color: red"> Tasks:  @(ViewBag.CategoryProductCount[category.CategoryId]) </span>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+<hr />
+<h1>My Notes</h1>
+<div class="row">
+    @if (Model.Count < 1)
+    {
+        <h5>No Notes Added.</h5>
+    }
+    @foreach(var note in Model)
+    {
+        <div class="col-sm-6 p-2">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">@note.NoteTitle</h5>
+                    <p>@Html.Raw(@note.Description)</p>
+                    <a href="/user/noteDetailPage/@note.NoteId" class="btn btn-primary">Go to Details</a>
+                    <a href="/user/GenerateSingleNote/@note.NoteId" class="btn btn-outline-warning">Export this Task</a>
+                    @{
+                        int modalCounter = 1;
+                        var data = AllTagData.Where(a => a.NoteId == note.NoteId).ToList();
+                        if (data != null)
+                        {
+                            <hr />
+                            foreach(var d in data)
+                            {
+                                var userData = users.Where(a => a.Id == d.UserId).FirstOrDefault();
+                                if (userData != null)
+                                {
+                                    <span class="btn border border-1 mx-1">@(userData.FirstName.Length > 0 ? userData.FirstName.Substring(0, 1) : "")@(userData.LastName.Length > 0 ? userData.LastName.Substring(0, 1) : "")</span>
+                                }
+                            }
+                            
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    }
+
+</div>
+<div class="text-center">
+    @if (currentPage > 1)
+    {
+        <a href="@Url.Action("Index", new { pageNumber = currentPage-1 })" class="btn btn-outline-success"> Go to Previous</a>
+    }
+    <span>@currentPage out of @totalPages</span>
+    @if (currentPage < totalPages)
+    {
+        <a href="@Url.Action("Index", new { pageNumber = currentPage+1 })" class="btn btn-outline-success"> Go to Next</a>
+    }
+</div>
+<hr />
+<h1>Tagged Me</h1>
+<div class="row">
+    @if (taggedNotes.Count < 1)
+    {
+        <h5>No One Tagged You in Their Notes.</h5>
+    }
+    @foreach (var note in taggedNotes)
+    {
+        var UserName = users.Where(a => a.Id == note.UserId).FirstOrDefault();
+        <div class="col-sm-6 p-2">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">@note.NoteTitle</h5>
+                    <p>@Html.Raw(@note.Description)</p>
+                    <p>Tagged By: @UserName.FirstName @UserName.LastName</p>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+<hr />
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <a href="@Url.Action("GeneratePDF", "User")">Export Notes!</a>
+</div>

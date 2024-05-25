@@ -1,0 +1,27 @@
+﻿@using NoteLite.Models
+@model Note
+@{
+    ViewData["Title"] = "Note Details";
+}
+<h1>Note Detail</h1>
+<hr />
+
+@{
+    User user = @ViewBag.user;
+}
+
+<div class="col-sm-6 p-2">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">@Html.DisplayFor(a => a.NoteTitle)</h5>
+            <p class="card-text">Description: @Html.Raw(Model.Description)</p>
+            <p class="card-text">Author: @user.FirstName  @user.LastName</p>
+            <p class="card-text">Added on: @Html.DisplayFor(a => a.NoteAdded)</p>
+            <a href="/Admin/RemoveNote/@Model.NoteId" class="btn btn-outline-danger">Remove Note</a>
+        </div>
+    </div>
+</div>
+
+<div>
+    <a asp-action="index">Back to the List</a>
+</div>

@@ -1,0 +1,55 @@
+﻿@model NoteLite.Models.DTO.RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<h1>Register Page</h1>
+
+<div class="Container">
+    @using (Html.BeginForm("Register", "Authentication", FormMethod.Post))
+    {
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <label>First Name <span class="text-danger">*</span></label>
+                <input type="text" asp-for="FirstName" placeholder="First Name" class="form-control"/>
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <label>Middle Name</label>
+                <input type="text" asp-for="MiddleName" placeholder="Middle Name" class="form-control" />
+                <span asp-validation-for="MiddleName" class="text-danger"></span>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <label>Last Name <span class="text-danger">*</span></label>
+                <input type="text" asp-for="LastName" placeholder="Last Name" class="form-control" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <label>Phone Number <span class="text-danger">*</span></label>
+                <input type="number" asp-for="PhoneNumber" placeholder="Phone Number" class="form-control" />
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="col-12">
+                <label>Email <span class="text-danger">*</span></label>
+                <input type="email" asp-for="Email" placeholder="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <label>Password <span class="text-danger">*</span></label>
+                <input type="password" asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <label>Confirm Password <span class="text-danger">*</span></label>
+                <input type="password" asp-for="ConfirmPassword" class="form-control" />
+                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+            </div>
+            <div>
+                <input type="submit" value="Register" class="btn btn-outline-primary my-2 px-5" />
+            </div>
+        </div>
+    }
+</div>
+<div>
+    <a asp-action="Login">Already have an Account? Login!</a>
+</div>

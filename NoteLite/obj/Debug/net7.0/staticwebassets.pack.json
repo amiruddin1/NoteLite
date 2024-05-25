@@ -1,0 +1,513 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\NoteLite.bundle.scp.css",
+      "PackagePath": "staticwebassets\\NoteLite.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\icons\\default\\icons.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\icons\\default\\icons.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\langs\\README.md",
+      "PackagePath": "staticwebassets\\js\\tinymce\\langs\\README.md"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\license.txt",
+      "PackagePath": "staticwebassets\\js\\tinymce\\license.txt"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\models\\dom\\model.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\models\\dom\\model.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\plugins\\advlist\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\advlist\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\plugins\\anchor\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\anchor\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\plugins\\autolink\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\autolink\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\plugins\\autoresize\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\autoresize\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\plugins\\autosave\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\autosave\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\plugins\\charmap\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\charmap\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\plugins\\code\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\code\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\plugins\\codesample\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\codesample\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\plugins\\directionality\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\directionality\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\plugins\\emoticons\\js\\emojiimages.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\emoticons\\js\\emojiimages.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\plugins\\emoticons\\js\\emojiimages.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\emoticons\\js\\emojiimages.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\plugins\\emoticons\\js\\emojis.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\emoticons\\js\\emojis.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\plugins\\emoticons\\js\\emojis.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\emoticons\\js\\emojis.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\plugins\\emoticons\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\emoticons\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\plugins\\fullscreen\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\fullscreen\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\plugins\\help\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\help\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\plugins\\image\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\image\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\plugins\\importcss\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\importcss\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\plugins\\insertdatetime\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\insertdatetime\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\plugins\\link\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\link\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\plugins\\lists\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\lists\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\plugins\\media\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\media\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\plugins\\nonbreaking\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\nonbreaking\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\plugins\\pagebreak\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\pagebreak\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\plugins\\preview\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\preview\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\plugins\\quickbars\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\quickbars\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\plugins\\save\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\save\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\plugins\\searchreplace\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\searchreplace\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\plugins\\table\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\table\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\plugins\\template\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\template\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\plugins\\visualblocks\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\visualblocks\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\plugins\\visualchars\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\visualchars\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\plugins\\wordcount\\plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\plugins\\wordcount\\plugin.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\skins\\content\\dark\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\content\\dark\\content.min.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\skins\\content\\default\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\content\\default\\content.min.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\skins\\content\\document\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\content\\document\\content.min.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\skins\\content\\tinymce-5-dark\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\content\\tinymce-5-dark\\content.min.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\skins\\content\\tinymce-5\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\content\\tinymce-5\\content.min.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\skins\\content\\writer\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\content\\writer\\content.min.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\skins\\ui\\oxide-dark\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\oxide-dark\\content.inline.min.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\skins\\ui\\oxide-dark\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\oxide-dark\\content.min.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\skins\\ui\\oxide-dark\\skin.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\oxide-dark\\skin.min.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\oxide-dark\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\skins\\ui\\oxide\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\oxide\\content.inline.min.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\skins\\ui\\oxide\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\oxide\\content.min.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\skins\\ui\\oxide\\skin.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\oxide\\skin.min.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\oxide\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\content.inline.min.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\content.min.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.min.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\tinymce-5-dark\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\skins\\ui\\tinymce-5\\content.inline.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\tinymce-5\\content.inline.min.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\skins\\ui\\tinymce-5\\content.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\tinymce-5\\content.min.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\skins\\ui\\tinymce-5\\skin.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\tinymce-5\\skin.min.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.min.css",
+      "PackagePath": "staticwebassets\\js\\tinymce\\skins\\ui\\tinymce-5\\skin.shadowdom.min.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\themes\\silver\\theme.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\themes\\silver\\theme.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\tinymce.d.ts",
+      "PackagePath": "staticwebassets\\js\\tinymce\\tinymce.d.ts"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\js\\tinymce\\tinymce.min.js",
+      "PackagePath": "staticwebassets\\js\\tinymce\\tinymce.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Amiruddin Samlayawala\\Practical\\NoteLite\\NoteLite\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.NoteLite.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.NoteLite.props",
+      "PackagePath": "build\\NoteLite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.NoteLite.props",
+      "PackagePath": "buildMultiTargeting\\NoteLite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.NoteLite.props",
+      "PackagePath": "buildTransitive\\NoteLite.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

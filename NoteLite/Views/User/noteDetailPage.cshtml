@@ -1,0 +1,86 @@
+﻿@using NoteLite.Models
+@model Note
+@{
+    ViewData["Title"] = "Note Details";
+}
+
+@if (ViewBag.response_updation != null)
+{
+    if (ViewBag.response_updation == "Error")
+    {
+        <script>
+            alert("Facing Issue With Book Updation");
+        </script>
+    }
+}
+
+@{
+    var categories = ViewData["Categories"] as List<SelectListItem>;
+    var users = ViewData["Users"] as List<SelectListItem>;
+}
+<h1>Note Detail</h1>
+<hr />
+<div class="row">
+    <div>
+        <div class="my-2"><span style="color: red"> Deletion of Note, will Delete the Tagged Post to Whomever it is tag to.</span></div>
+    </div>
+    <div class="col-md-4 col-sm-12">
+        <form asp-action="noteDetailPage" asp-controller="User" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="NoteId" />
+            <div class="form-group">
+                <label asp-for="NoteTitle" class="control-label">Note Title</label>
+                <input asp-for="NoteTitle" class="form-control" required />
+                <span asp-validation-for="NoteTitle" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <textarea asp-for="Description" class="form-control"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CategoryId" class="control-label">Category Id</label>
+                <select asp-for="CategoryId" class="form-control" required>
+                    <option value="">Select Category</option>
+                    @foreach (var category in categories)
+                    {
+                        <option value="@category.Value">@category.Text</option>
+                    }
+                </select>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Update Note" class="btn btn-outline-primary my-2 px-5" />
+                <a href="/User/Delete/@Model.NoteId" class="btn btn-outline-danger my-2 px-5" >Remove Note</a>
+            </div>
+        </form>
+    </div>
+</div>
+<hr />
+
+<h5>Tag a Person to This Note</h5>
+<form asp-action="tagPerson" asp-controller="user" method="Post">
+    <input type="hidden" asp-for="NoteId" />
+    <select name="userId" class="form-control w-50" required>
+        <option value="">Select User</option>
+        @foreach (var user in users)
+        {
+            <option value="@user.Value">@user.Text</option>
+        }
+        <input type="submit" class="my-2 btn btn-outline-secondary" value="Give Access" />
+    </select>
+</form>
+
+<hr />
+
+<div>
+    <a asp-action="index">Back to the List</a>
+
+</div>
+@section Scripts {
+    <script>
+        tinymce.init({
+            selector: 'textarea'
+        });
+    </script>
+}

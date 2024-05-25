@@ -1,0 +1,31 @@
+﻿@using NoteLite.Models
+@model Category
+@{
+    ViewData["Title"] = "Manage Catagory";
+}
+
+<h1>Manage Catagory</h1>
+<div class="row">
+    <div class="col-sm-6">
+        <form asp-action="ManageCategory" asp-controller="Admin" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="CategoryId" />
+            <div class="form-group">
+                <label asp-for="CategoryName" class="control-label">Category Name</label>
+                <input asp-for="CategoryName" class="form-control" required />
+                <span asp-validation-for="CategoryName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Update Category" class="btn btn-outline-primary my-2 px-5" />
+                <a href="/Admin/Removecategory/@Model.CategoryId" class="btn btn-outline-danger my-2 px-5">Remove Category</a>
+            </div>
+
+            <hr />
+            <p>  Associate Notes (@ViewBag.count Notes) Will be Deleted when You delete This Category. </p>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="index">Back to the List</a>
+</div>

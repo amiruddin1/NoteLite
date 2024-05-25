@@ -1,0 +1,101 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = NoteLite
+build_property.RootNamespace = NoteLite
+build_property.ProjectDir = G:\GATEWAY GROUP OF COMPANIES\NoteLite\NoteLite\NoteLite\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = G:\GATEWAY GROUP OF COMPANIES\NoteLite\NoteLite\NoteLite
+build_property._RazorSourceGeneratorDebug = 
+
+[G:/GATEWAY GROUP OF COMPANIES/NoteLite/NoteLite/NoteLite/Views/Admin/AddCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/GATEWAY GROUP OF COMPANIES/NoteLite/NoteLite/NoteLite/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/GATEWAY GROUP OF COMPANIES/NoteLite/NoteLite/NoteLite/Views/Admin/ManageCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/GATEWAY GROUP OF COMPANIES/NoteLite/NoteLite/NoteLite/Views/Admin/ManageUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTWFuYWdlVXNlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/GATEWAY GROUP OF COMPANIES/NoteLite/NoteLite/NoteLite/Views/Admin/noteDetailPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cbm90ZURldGFpbFBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/GATEWAY GROUP OF COMPANIES/NoteLite/NoteLite/NoteLite/Views/Authentication/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRpb25cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/GATEWAY GROUP OF COMPANIES/NoteLite/NoteLite/NoteLite/Views/Authentication/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRpb25cUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/GATEWAY GROUP OF COMPANIES/NoteLite/NoteLite/NoteLite/Views/Error/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcQWNjZXNzRGVuaWVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/GATEWAY GROUP OF COMPANIES/NoteLite/NoteLite/NoteLite/Views/Error/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/GATEWAY GROUP OF COMPANIES/NoteLite/NoteLite/NoteLite/Views/Error/NotFound404.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JcTm90Rm91bmQ0MDQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/GATEWAY GROUP OF COMPANIES/NoteLite/NoteLite/NoteLite/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/GATEWAY GROUP OF COMPANIES/NoteLite/NoteLite/NoteLite/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/GATEWAY GROUP OF COMPANIES/NoteLite/NoteLite/NoteLite/Views/User/AddNew.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBZGROZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/GATEWAY GROUP OF COMPANIES/NoteLite/NoteLite/NoteLite/Views/User/CategoryWiseProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDYXRlZ29yeVdpc2VQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/GATEWAY GROUP OF COMPANIES/NoteLite/NoteLite/NoteLite/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/GATEWAY GROUP OF COMPANIES/NoteLite/NoteLite/NoteLite/Views/User/noteDetailPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxub3RlRGV0YWlsUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/GATEWAY GROUP OF COMPANIES/NoteLite/NoteLite/NoteLite/Views/User/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/GATEWAY GROUP OF COMPANIES/NoteLite/NoteLite/NoteLite/Views/User/search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxzZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/GATEWAY GROUP OF COMPANIES/NoteLite/NoteLite/NoteLite/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/GATEWAY GROUP OF COMPANIES/NoteLite/NoteLite/NoteLite/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/GATEWAY GROUP OF COMPANIES/NoteLite/NoteLite/NoteLite/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-axv8867ynr
